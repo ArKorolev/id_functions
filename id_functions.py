@@ -34,7 +34,6 @@ def sum_clients2(n_first_id, n_customers):
     группу, если нумерация ID начинается с произвольного числа."""
     list2 = group_list[n_first_id:n_first_id + n_customers]
     customers_in_groups = collections.Counter(list2)  # группа: количество клиентов
-
     return customers_in_groups
 
 
